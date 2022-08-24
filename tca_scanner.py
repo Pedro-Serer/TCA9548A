@@ -22,5 +22,6 @@ def tca_reader(tca_endereco, porta, endereco):
     except:
         return "Não existe o endereço " + str(hex(endereco)) + " na porta " + str(porta)
 
-
+######################################## TESTE #########################################
+    
 print(tca_reader(0x70, 5, 0x6d))
